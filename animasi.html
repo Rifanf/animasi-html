@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #animasi{
+            width: 300px;
+            height :300px;
+            border-radius: 40%;
+            background-color: cornflowerblue;
+            margin-top: 100px;
+            margin-left: 100px;
+            /* transition: 600ms; */
+        }
+        #animasi:hover{
+            /* transition: 600ms; */
+            background-color: crimson;
+            border-top-right-radius: 15%;
+            border-bottom-left-radius: 15%;
+            border-bottom-right-radius: 0%;
+            border-top-left-radius: 0%;
+        }
+        @keyframes down{
+            0%{}
+            100%{margin-top: 470px;}
+        }
+        
+        @keyframes up{
+            0%{margin-top: 470px;}
+            100%{margin-top: 100px;}
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    
+    <div id="animasi"></div>
+
+</body>
+<script>
+    var animasi = document.getElementById("animasi");
+    animasi.addEventListener()
+</script>
+</html>
